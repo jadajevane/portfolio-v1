@@ -1,0 +1,46 @@
+<script type="module">
+const menuButton = document.getElementById('menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+menuButton.addEventListener('click', () => {
+  mobileMenu.classList.toggle('hidden');
+});
+</script>
+
+<header>
+  <div class="container max-w-screen-lg mx-auto flex justify-between items-center p-5">
+    <!-- Logo -->
+    <div class="flex items-center space-x-3">
+      <a href="#home">
+        <img src="../assets/images/logo.svg" alt="Logo" class="h-12 w-12 smooth-scroll">
+      </a>
+    </div>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-8">
+      <a href="#home" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold">Home</a>
+      <a href="#about" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold">About Me</a>
+      <a href="#project" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold">Projects</a>
+      <a href="#contact" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold">Contact</a>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button 
+    name="Menu button"
+    id="menu-button" class="block md:hidden text-gray-700 focus:outline-none">
+      <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-white shadow-md p-5 md:hidden flex flex-col space-y-4">
+      <a href="#home" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold block">Home</a>
+      <a href="#about" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold block">About Me</a>
+      <a href="#project" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold block">Projects</a>
+      <a href="#contact" class="smooth-scroll hover:text-gray-400 transition duration-300 font-semibold block">Contact</a>
+    </nav>
+  </div>
+  <hr>
+</header>
+

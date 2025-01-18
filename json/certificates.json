@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Git",
+        "organisation": "Bit Academy",
+        "description": "Learning how to work with Git and collaboration techniques to manage code efficiently.",
+        "date": "Dec 2, 2024",
+        "id": "01946f25-c802-72ab-90ef-83afae7cd897"
+    },
+    {
+        "title": "Database PDO",
+        "organisation": "Bit Academy",
+        "description": "Comprehensive cloud computing certification covering major platforms and architecture patterns.",
+        "date": "Nov 14, 2024",
+        "id": "019386f2-fe20-7346-8abb-4d650718dac3"
+    },
+    {
+        "title": "PHP Web",
+        "organisation": "Bit Academy",
+        "description": "Advanced analytics and machine learning techniques with practical applications.",
+        "date": "Oct 10, 2024",
+        "id": "01946f29-570f-73e3-a783-8f5582c83423"
+    },
+    {
+        "title": "Scrum",
+        "organisation": "Bit Academy",
+        "description": "Advanced security principles, threat detection, and protection strategies.",
+        "date": "Apr 4, 2024",
+        "id": "01946f29-9bba-7b85-a58d-de05806b0f4d"
+    },
+    {
+        "title": "Javascript Novice",
+        "organisation": "Bit Academy",
+        "description": "Hands-on experience building dynamic and interactive web applications using React.",
+        "date": "Apr 3, 2024",
+        "id": "01946f29-c9f5-7aea-8dc9-cac6c1de3f77"
+    },
+    {
+        "title": "MySQL Beginner",
+        "organisation": "Bit Academy",
+        "description": "Mastering CI/CD pipelines, automation, and DevOps best practices.",
+        "date": "Mar 7, 2024",
+        "id": "01946f2a-3418-775d-9d5c-5c1707cf5588"
+    }
+]
